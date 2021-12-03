@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, CardHeader, CardContent, IconButton, Typography, makeStyles, Avatar } from '@material-ui/core'
 import { DeleteOutlined } from '@material-ui/icons'
-import { blue, green, pink, yellow } from '@material-ui/core/colors'
+import { blue, green, pink, red, yellow } from '@material-ui/core/colors'
 
 const useStyles = makeStyles({
     avatar: {
@@ -14,6 +14,9 @@ const useStyles = makeStyles({
             }
             if(note.category == 'todos'){
                 return pink[500]
+            }
+            if(note.category == 'priority'){
+                return red[500]
             }
             return blue[500]
         }
@@ -39,7 +42,7 @@ export default function NoteCard({ note, handleDelete }) {
                         </IconButton>
                     }
                     title={note.title}
-                    subheader={note.category}
+                    subheader={note.category.charAt(0).toUpperCase() + note.category.slice(1)}
                 />
                 <CardContent>
                     <Typography variant="body2" color="textSecondary">

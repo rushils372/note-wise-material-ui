@@ -89,6 +89,7 @@ export default function Create() {
           <FormControlLabel value="todos" control={<Radio />} label="Todos"/>
           <FormControlLabel value="remainders" control={<Radio />} label="Remainders"/>
           <FormControlLabel value="work" control={<Radio />} label="Work"/>
+          <FormControlLabel value="priority" control={<Radio />} label="Priority"/>
         </RadioGroup>
         </FormControl>
 

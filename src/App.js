@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Notes from './pages/Notes'
 import Create from './pages/Create'
 import { createMuiTheme, ThemeProvider } from '@material-ui/core';
-import { purple } from '@material-ui/core/colors'
+import { orange, purple } from '@material-ui/core/colors'
 import Layout from './components/Layout';
 
 const theme = createMuiTheme({
@@ -10,7 +10,7 @@ const theme = createMuiTheme({
     primary: {
       main: '#fefefe'
     },
-    secondary: purple
+    secondary: orange
   },
   typography: {
     fontFamily: 'Quicksand',

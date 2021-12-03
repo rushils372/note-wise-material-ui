@@ -23,6 +23,30 @@
       "details": "Its just 500 rupees",
       "category": "money",
       "id": 4
+    },
+    {
+      "title": "Pick Something while coming back",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque eveniet fuga vitae voluptas iure reiciendis. Maxime, blanditiis? Quaerat sunt reiciendis iste, maiores impedit laboriosam eaque, accusamus quo rerum enim ducimus quia tempore unde suscipit.",
+      "category": "todos",
+      "id": 5
+    },
+    {
+      "title": "Pay the bill ASAP",
+      "details": "Lorem ipsum dolor sit amet, consectetuunt reiciendis iste, maiores impedit laboriosam eaque, accusamus quo rerum enim ducimus quia tempore unde suscipit.Lorem ipsum dolor sit amet, consectetuunt reiciendis iste, maiores impedit laboriosam eaque, accusamus quo rerum enim ducimus quia tempore unde suscipit.Lorem ipsum dolor sit amet, consectetuunt reiciendis iste, maiores impedit laboriosam eaque, accusamus quo rerum enim ducimus quia tempore unde suscipit.",
+      "category": "money",
+      "id": 6
+    },
+    {
+      "title": "Workout at morning",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic exercitationem magnam doloribus sint, maiores amet possimus officiis in perspiciatis consequuntur id consequatur blanditiis saepe corrupti esse explicabo ea et distinctio voluptate, maxime facere quam rem aut. Incidunt nisi asperiores distinctio ducimus. Pariatur fuga architecto eos laudantium odit sit hic distinctio eius, eaque officiis sint ipsa!",
+      "category": "work",
+      "id": 7
+    },
+    {
+      "title": "More to wakeup",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio sapiente, eaque quos tempore corrupti eum enim odio aspernatur dicta quasi doloribus nam?",
+      "category": "remainders",
+      "id": 8
     }
   ]
 }
